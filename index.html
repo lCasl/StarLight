@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        StarLight
+    </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.js" integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="shortcut icon" href="/sources/img/icono.png">
+</head>
+
+<body id="body" class="ajuste">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" nonce="nEsi2wu0"></script>
+    <div class="fixed-top cookie" id="barraaceptacion">
+
+        <div id="contenedor-menu" class="alert alert-info alert-dismissible h6 fade show fixed-bottom" role="alert">
+            <a type="button" class="close" data-dismiss="alert" href="#" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a> Alto! Está muy oscuro ahí fuera, recoge una
+            <a class="textobrillo" href="#">LUZ</a> (cookie) para poder continuar, cerrar esta ventana implica que aceptas las las cookies.
+            <a class="textobrillo" href="#">RECOGER LUZ</a>
+        </div>
+
+
+    </div>
+
+    <!-- NAVBAR -->
+    <nav id="scrollsections" class="navbar container-fluid navbar-expand-xl bg-navbar shadow-5-strong fixed-top">
+        <div class="container-fluid navbarbotones">
+            <li class="nav-item list-unstyled text-color">
+                <a class=" nav-link active titulo tr2" href="#nubes">
+                    <i class="bi bi-moon-stars-fill" id="titulo"> StarLight</i>
+                </a>
+            </li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
+                    <li class="nav-item dropdown">
+                        <a href="#astros" class="nav-link dropdown-toggle tr2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-images"></i> Astros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item tr2" href="#luna">
+                                    <i class="bi bi-moon-stars-fill"></i> Luna
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item tr2" href="#constelaciones">
+                                    <i class="bi bi-stars"></i> Constelaciones
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item tr2" href="#cometas">
+                                    <i class="bi bi-stars"></i> Cometas
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item tr2" href="#Madrid">
+                                    <i class="bi bi-stars"></i> Estrellas en Madrid
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item tr2">
+                        <a class="nav-link ms-auto" href="#contacto">
+                            <i class="bi bi-wechat"></i> Contacto
+                        </a>
+                    </li>
+
+
+
+                </ul>
+
+
+
+            </div>
+        </div>
+
+    </nav>
+    <!-- NAVBAR -->
+
+    <div data-bs-spy="scroll" data-bs-target="#scrollsections" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2" tabindex="0">
+        <!-- Nubes -->
+        <div id="nubes" class="nubes">
+            <div class="banner container-fluid " data-parallax="scroll">
+                <div class="clouds" id="clouds">
+                    <img src="./sources/img/banner/cloud1.png" style="--i:1;">
+                    <img src="./sources/img/banner/cloud2.png" style="--i:2;">
+                    <img src="./sources/img/banner/cloud3.png" style="--i:3;">
+                    <img src="./sources/img/banner/cloud4.png" style="--i:4;">
+                    <img src="./sources/img/banner/cloud5.png" style="--i:5;">
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="titulop">StarLight</div>
+        <!-- © wdisseny -->
+        <div class="lunas">
+
+            <!-- © wdisseny -->
+            <div id="contain_moon1" class="textoluna" style="text-align:center;padding-top:5px;padding-bottom:5px;">
+                <div style="font-weight:bold">Ayer</div>
+                <div style="margin-top:2px;margin-bottom:0px;padding:px;filter:drop-shadow(0 0 20px #ffda5b)"></div>
+                <div></div>
+                <div style="font-size:small"></div>
+            </div>
+            <div id="contain_moon0" class="textoluna lunamedio" style="text-align:center;padding-top:-10px;padding-bottom:10px;">
+                <div style="font-weight:bold">Hoy</div>
+                <div style="margin-top:2px;margin-bottom:0px;padding:px;filter:drop-shadow(0 0 20px #ffda5b)"></div>
+                <div>.</div>
+                <div style="font-size:small">.</div>
+            </div>
+            <!-- © wdisseny -->
+            <div id="contain_moon2" class="textoluna" style="text-align:center;padding-top:5px;padding-bottom:5px;">
+                <div style="font-weight:bold">Mañana</div>
+                <div style="margin-top:2px;margin-bottom:0px;padding:px;filter:drop-shadow(0 0 20px #ffda5b)"></div>
+                <div></div>
+                <div style="font-size:small"></div>
+            </div>
+        </div>
+
+        <section class="textoinfo">
+            <p><span class="textobrillo">StarLight</span> es una pagina web dedicada al cielo nocturno, tanto la <span class="textobrillo">luna</span> como las <span class="textobrillo">estrellas</span> y <span class="textobrillo">constelaciones</span>.
+                Es basicamente informacion relevante sobre los astros, y como apreciarlos bien.
+            </p>
+        </section>
+
+        <div class="astros"></div>
+        <!-- Luna -->
+        <section id="luna">
+
+
+            <h2>La Luna</h2>
+            <div class="textoinfo">
+                <p>
+                    La Luna es el único <span class="textobrillo">satélite natural</span> de la Tierra. Con un diámetro ecuatorial de 3474.8 km, es el quinto satélite más grande del sistema solar, mientras que en cuanto al tamaño proporcional respecto
+                    a su planeta es el satélite más grande: un cuarto del diámetro de la Tierra y 1/81 de su masa. Es, además, después de Ío, el segundo satélite más denso. Se encuentra en relación síncrona con la Tierra, siempre mostrando la misma cara
+                    hacia el planeta. El hemisferio visible está marcado con oscuros mares lunares de origen volcánico entre las brillantes montañas antiguas y los destacados astroblemas.
+                </p>
+                <p>
+                    A pesar de ser, en apariencia, el objeto más brillante en el cielo después del Sol, su superficie es en realidad muy oscura, con una reflexión similar a la del carbón. Su prominencia en el cielo y su ciclo regular de fases han hecho de la Luna un objeto
+                    con importante influencia cultural desde la antigüedad, tanto en el lenguaje como en el calendario, el arte o la mitología. La influencia gravitatoria de la Luna produce las mareas y el aumento de la duración del día. La distancia
+                    orbital de la Luna, cerca de treinta veces el diámetro de la Tierra, hace que se vea en el cielo con el mismo tamaño que el Sol y permite que la Luna cubra exactamente al Sol en los eclipses solares totales. La Luna es el único cuerpo
+                    celeste en el que el ser humano ha realizado un descenso tripulado. Aunque el programa Luna de la Unión Soviética fue el primero en alcanzar la Luna con una nave espacial no tripulada, el programa Apolo de Estados Unidos realizó las
+                    únicas misiones tripuladas al satélite terrestre hasta la fecha, comenzando con la primera órbita lunar tripulada por el Apolo 8 en 1968, y seis alunizajes tripulados entre 1969 y 1972, siendo el primero el Apolo 11 en 1969, y el último
+                    el Apolo 17. Estas misiones regresaron con más de 380 kg de roca lunar, que han permitido alcanzar una detallada comprensión geológica de los orígenes de la Luna –se cree que se formó hace 4 500 000 000 (cuatro mil quinientos millones)
+                    de años después de un gran impacto–, la formación de su estructura interna y su posterior historia. En 1970 la Unión Soviética puso en la superficie el primer vehículo robótico controlado desde la tierra: Lunojod 1. El rover fue enviando
+                    fotografías y vídeos de la superficie que recorrió (10 km) durante casi un año.1​ Desde la misión Apolo 17, en 1972, ha sido visitada únicamente por sondas espaciales no tripuladas, en particular por el astromóvil soviético Lunojod
+                    2. Desde 2004, Japón, China, India, Estados Unidos y la Agencia Espacial Europea han enviado orbitadores. Estas naves espaciales han confirmado el descubrimiento de agua helada fijada al regolito lunar en cráteres que se encuentran
+                    en la zona de sombra permanente y están ubicados en los polos. Se han planeado futuras misiones tripuladas a la Luna, pero no se han puesto en marcha aún.
+                </p>
+                <p>
+                    La Luna se mantiene, bajo el Tratado sobre el espacio ultraterrestre, libre para la exploración de cualquier nación con fines pacíficos.
+                </p>
+            </div>
+
+            <div class="cajas textoinfo">
+                <div>
+                    <div class="cajaI">
+                        <h3>Apolo 11</h3>
+                        <p>Apolo 11 fue la quinta misión tripulada del Programa Apolo de los Estados Unidos y la primera de la historia en lograr que un ser humano llegara a la Luna. La nave Apolo de la misión se envió al espacio el 16 de julio de 1969,
+                            realizó su alunizaje el 20 de julio de ese mismo año y al día siguiente dos astronautas (Armstrong y Aldrin) se convirtieron en los primeros en caminar sobre la superficie lunar. El Apolo 11 fue impulsado por un cohete Saturno
+                            V desde la plataforma LC 39A y lanzado a las 13:32 UTC del complejo de cabo Kennedy, en Florida (EE. UU.). Oficialmente se conoció a la misión como AS-506. La misión fue un hito decisivo de la NASA contra el programa espacial
+                            de la Unión Soviética durante la carrera espacial y está considerada como uno de los momentos más significativos en la historia de la humanidad.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajaD">
+                        <h3>Apolo 12</h3>
+                        <p>Apolo 12 fue la sexta misión tripulada del programa Apolo de la NASA, y la segunda que alunizó. Lanzada casi cuatro meses después del Apolo 11, el Apolo 12 alunizó en el Oceanus Procellarum, muy cerca de la sonda estadounidense
+                            Surveyor 3, que había aterrizado el 20 de abril de 1967, y los astronautas trajeron algunas piezas de esta sonda de vuelta a la Tierra para su estudio, entre ellas la cámara fotográfica.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajaI">
+                        <h3>Apolo 14</h3>
+                        <p>Apolo 14 fue la octava misión tripulada en el programa Apolo de los Estados Unidos, la tercera en aterrizar en la Luna y la primera en alunizar en las tierras altas lunares. Fue la última de las "misiones H", aterrizajes dirigidos
+                            con estancias de dos días en la Luna con dos EVA lunares, o paseos lunares. El comandante Alan Shepard, el piloto del módulo de comando Stuart Roosa y el piloto del módulo lunar, Edgar Mitchell, se lanzaron en su misión de
+                            nueve días el domingo 31 de enero de 1971 a las 4:03:02 p. m. EST. El despegue se retrasó cuarenta minutos y dos segundos, debido a restricciones climáticas en el sitio de lanzamiento, el primer retraso de este tipo en el programa
+                            Apolo.1​
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="cajaD">
+                        <h3>Apolo 15</h3>
+                        <p>Apolo 15 fue la novena misión tripulada del programa Apolo (denominado oficialmente AS-510), fue lanzado el 26 de julio de 1971 mediante un cohete del tipo Saturno V, en dirección a la Luna. Fue la primera de las misiones del tipo
+                            J, es decir, con modificaciones en la astronave que permitía una duración del vuelo de hasta 14 días. Poco después de comenzar la órbita lunar número 12, el módulo de descenso consiguió alunizar el 30 de julio a 26,08º N 3,66º
+                            E (a solo un centenar de metros del punto teórico en la región de Hadley-Apeninos, en el Mare Imbrium) llevando como tripulantes a David R. Scott -comandante-, Alfred M. Worden y James B. Irwin. Tras alunizar, Scott realizó
+                            un reconocimiento del terreno a través de la escotilla superior del módulo lunar, durante 33 min. Tras descender del módulo de alunizaje “Falcon”, los astronautas Scott e Irwin emplearon por primera vez un LRV (Vehículo Explorador
+                            Lunar o Lunar Roving Vehicle, fabricado por la compañía Boeing y la Delco Electronics de General Motors) que recorrió una distancia total de 27,9 kilómetros.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---->
+
+
+        <!-- Carousel -->
+
+        <section id="constelaciones">
+            <h2>Constelaciones</h2>
+            <div id="carousell" class="carousel slide" data-bs-ride="true" data-parallax="scroll">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousell" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousell" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousell" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div id="foto1" class="carousel-item active">
+                        <img src="./sources/img/estrellas.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>El cielo nocturno</h5>
+
+                        </div>
+                    </div>
+                    <div id="foto2" class="carousel-item">
+                        <img src="./sources/img/osas.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Osa mayor y menor</h5>
+
+                        </div>
+                    </div>
+                    <div id="foto3" class="carousel-item">
+                        <img src="./sources/img/constelacion1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Varias constelaciones</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousell" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousell" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+            </div>
+        </section>
+
+        <section id="cometas">
+            <h2>Cometas</h2>
+            <div class="textoinfo">
+                <p>Un cometa es un cuerpo celeste constituido por polvo, rocas y partículas de hielo que orbita alrededor del Sol siguiendo diferentes trayectorias elípticas. Los cometas forman parte del Sistema solar, junto con el Sol, los cuatro planetas
+                    interiores, los cuatro planetas exteriores, sus respectivos satélites, los plutoides y los cuerpos menores del sistema solar.
+                </p>
+                <p> La mayoría de los cometas describen órbitas elípticas de gran excentricidad, lo que produce su acercamiento al Sol con un período considerable. A diferencia de los asteroides, los cometas son cuerpos sólidos compuestos de materiales que
+                    se subliman en las cercanías del Sol. A gran distancia (a partir de 5-10 UA) desarrollan una atmósfera que envuelve al núcleo, llamada coma o cabellera, que está formada por gas y polvo. A medida que el cometa se acerca al Sol, el
+                    viento solar azota la coma y se genera la cola característica, la cual está formada por polvo y el gas de la coma ionizado.</p>
+            </div>
+            <div class="container py-5">
+                <div class="main-timeline">
+                    <div class="timeline left">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <h3>El Cometa Halley</h3>
+                                <p class="mb-0">Con un período de 76 años aproximadamente, el único visible desde la superficie de la Tierra.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline right">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <h3>El Cometa Hale-Bop</h3>
+                                <p class="mb-0">Uno de los más observados del siglo XX, desató numerosos rumores en su paso cerca de la Tierra durante 1997, dada su enorme brillantez.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline left">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <h3>El Cometa Borrelly</h3>
+                                <p class="mb-0">Nombrado por su descubridor, el francés Alphonse Borrelly, fue visitado en 2001 por la sonda espacial norteamericana Deep Space 1.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline right">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <h3>El Cometa Coggia</h3>
+                                <p class="mb-0">Un ejemplar gigante no periódico que pudo observarse a simple vista desde la Tierra en 1874. Visitó nuestro planeta en dos ocasiones más antes de desintegrarse en 1882.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline left">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <h3>El Cometa Shoemaker-Levy 9</h3>
+                                <p class="mb-0">Célebre por haberse estrellado contra Júpiter en 1994, permitiéndonos presenciar el primer impacto extraterrestre documentado de la historia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline right">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <h3>El Cometa Hyakutake</h3>
+                                <p class="mb-0">Descubierto en enero de 1996, año en que pasó muy cerca de la Tierra: a la distancia más próxima que había pasado un cometa en 200 años. Se le pudo ver desde todo el mundo y emitió importantes cantidades de rayos X. Su
+                                    período aproximado es de 72.000 años.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <!-- Contenedor principal del video -->
+            <div class="contenedor_video">
+
+                <!-- Subcontenedor del video -->
+                <div class="video">
+
+                    <!-- Botón para cerrar el video flotante -->
+                    <div class="btn_cerrar"> x
+
+                    </div>
+                    <div class="asergrande">
+                        <!-- Elemento Video HTML 5 -->
+                        <video class="vid" controls>
+                            <source src="sources/video.mp4" type="video/mp4"> Tu navegador no soporta Videos HTML, por favor usa un navegador moderno.
+            
+                        </video>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <h2>¿Donde ver las estrellas en Madrid?</h2>
+        <section id="Madrid" class="dnde" data-parallax="scroll" data-image-src="./sources/img/telescopio.jpg">
+
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.462380454415!2d-3.658200334604625!3d40.398606529367235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422502d9ca34eb%3A0x34d893082e2d86f!2zQ2Vycm8gZGVsIFTDrW8gUMOtbw!5e0!3m2!1sen!2ses!4v1673382794995!5m2!1sen!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="textomapa textoinfo">
+                <h3>El cerro del Tío Pío</h3>
+                <p>El parque del Cerro del Tío Pío es un parque de Madrid ubicado en el barrio de Numancia, en el distrito de Puente de Vallecas. Se encuentra entre la Colonia de Fontarrón, la Colonia de Santa Ana y la Colonia de los taxistas. Es conocido
+                    comúnmente con el nombre de parque de las Siete Tetas o también como Las Tetas de Vallecas por la forma que tienen sus colinas. Se trata de uno de los mejores lugares de la ciudad para ver atardecer y desde cualquiera de sus cerros
+                    puede verse gran parte de la ciudad.</p>
+
+            </div>
+        </section>
+
+
+        <div class="cajas textoinfo">
+            <div>
+                <div class="cajaI">
+                    <h3>Robledo de Chavela</h3>
+                    <p>Entre la Sierra de Guadarrama y Gredos está Robledo de Chavela, sede de las instalaciones de radiotelescopios gigantes de la NASA en España. Las perseidas, una de las lluvias de estrellas más conocidas, se producen porque la Tierra
+                        pasa por la órbita del cometa 109P/Swift-Tuttle y son sus restos, los granitos de arena que ha dejado en su órbita, las estrellas fugaces que vemos. No resultan peligrosos para nosotros aquí en la Tierra, pero sí para los satélites
+                        en casos de mucha intensidad, apunta el astrofísico Sánchez de Miguel.</p>
+                    <img class="imagencaja" src="sources/img/sitios1.jpg">
+                </div>
+            </div>
+            <div>
+                <div class="cajaD">
+                    <h3>Sierra Hoyo de Manzanares</h3>
+                    <p>Con Madrid a sus espaldas (evitando así la contaminación lumínica), la Sierra de Hoyo de Manzanares es una buena excursión para cazar perseidas. El propio Ayuntamiento del pueblo Hoyo del Manzanares organiza, periódicamente, excursiones
+                        nocturnas para disfrutar del cielo nocturno. Estos meses de verano, las mejores constelaciones para buscar en el cielo son el "Triángulo de verano" (que se puede ver durante toda la noche) o la Vía Láctea. Hacia el norte, la constelación
+                        del cisne o del águila.</p>
+                    <img class="imagencaja" src="sources/img/sitios2.jpg">
+                </div>
+            </div>
+            <div>
+                <div class="cajaI">
+                    <h3>La Pedriza</h3>
+                    <p>Sitios tan populares para pasar el día en verano como La Pedriza o incluso el Pantano de San Juan pueden ser también buenos lugares para observar de la lluvia de estrellas. Para poder disfrutarlas no es necesario complicados instrumentos
+                        ópticos: "Lo mejor es observarlas a simple vista, para tener un campo de visión más amplio que con telescopios o incluso prismáticos", comenta el astrónomo del Planetario de Madrid Emilio Gálvez. Además, hay luna nueva, por lo
+                        que no molestará su luz. Detectad la zona de la Osa Mayor, junto a la constelación de Perseo, pues será donde pasen.
+                    </p>
+                    <img class="imagencaja" src="sources/img/sitios3.jpg">
+                </div>
+            </div>
+            <div>
+                <div class="cajaD">
+                    <h3>La Silla de Felipe II</h3>
+                    <p>El observatorio natural desde donde Felipe II habría contemplado el desarrollo de las obras del Escorial es también una buena opción, con un 'pero': está muy de moda entre los aficionados, por lo que hay que tener cuidado con las aglomeraciones
+                        y las luces de los coches aparcados, que pueden dificultar ver las estrellas.</p>
+                    <img class="imagencaja" src="sources/img/sitios4.jpg">
+                </div>
+            </div>
+        </div>
+        <section id="galeria">
+            <div class="galeria row">
+
+                <div class="imagen col-md-4 ">
+                    <a title="Image 1" href="#galeria">
+                        <img class="thumbnail img-responsive" id="image-1" src="sources/img/lunagal.jpg">
+                    </a>
+                </div>
+
+                <div class="imagen  col-md-4">
+                    <a title="Image 2" href="#galeria">
+                        <img class="thumbnail img-responsive" id="image-2" src="sources/img/faselunagal.jpg">
+                    </a>
+
+                </div>
+                <div class="imagen col-md-4">
+                    <a title="Image 3" href="#galeria">
+                        <img class="thumbnail img-responsive" id="image-3" src="sources/img/constgal.jpg">
+                    </a>
+                </div>
+
+
+                <div class="imagen col-md-4">
+                    <a title="Image 1" href="#galeria">
+                        <img class="thumbnail img-responsive" id="image-1" src="sources/img/const2gal.jpg">
+                    </a>
+                </div>
+
+                <div class="imagen col-md-4">
+                    <a title="Image 2" href="#galeria">
+                        <img class="thumbnail img-responsive" id="image-2" src="sources/img/cometagal.jpg">
+                    </a>
+                </div>
+                <div class="imagen col-md-4">
+                    <a title="Image 3" href="#galeria">
+                        <img class="thumbnail img-responsive" id="image-3" src="sources/img/Cometa-Halley.jpg">
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="modal" id="modal-gallery" onclick="$('#testModal').hide()" role="dialog">
+                <div class="modal-dialog">
+
+                    <div class="modal-body">
+
+                        <div id="modal-carousel" class="carousel">
+                            <div class="carousel-inner">
+                            </div>
+
+                            <a class="carousel-control left" href="#modal-carousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                            <a class="carousel-control right" href="#modal-carousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer id="contacto" class="container-fluid " data-parallax="scroll">
+            <img class="imgfooter" src="./sources/img/arboles-silueta.png">
+
+            <div class="footertext container-fluid">
+                <div class="row justify-content-center bg-black">
+                    <button id="activador" class="botonform col-md-12">Formulario</button>
+                    <div id="formulario" class="footertext formulario">
+                        <form class="row g-3 needs-validation" id="form" method="post" action="https://postman-echo.com/post" novalidate>
+                            <div class="col-md-4">
+                                <label for="validationCustom01" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="validationCustom01" required>
+                                <div class="invalid-feedback">
+                                    Escribe tu nombre.
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationCustom02" class="form-label">Apellidos</label>
+                                <input type="text" class="form-control" id="validationCustom02" required>
+                                <div class="invalid-feedback">
+                                    Escribe tus apellidos.
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="validationCustomUsername" class="form-label">Correo</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    <input type="email" class="form-control" id="validationCustom03" aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                        Escribe un correo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom03" class="form-label">Direccion</label>
+                                <input type="text" class="form-control" id="validationCustom04" required>
+                                <div class="invalid-feedback">
+                                    Escribe una direccion valida.
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label for="validationCustom05" class="form-label">Zip</label>
+                                <input type="text" class="form-control" id="validationCustom05" required>
+                                <div class="invalid-feedback">
+                                    Escibe un numero de telefono.
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                  Acepta los terminos y condiciones.
+                                </label>
+                                    <div class="invalid-feedback">
+                                        Debes aceptar los terminos y condiciones.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button id="btnform" class="btn btn-primary botonform" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="textoinfo minfo bg-black">
+                        <img src="sources/img/mifoto.jpg">
+                        <div class="textoinfo">
+                            <p>Rodrigo Sáez Escobar<br> <span class="textobrillo">ro.saezescobar@outlook.com</span><br>+34 644436627<br>Ingenieía Informatica y ciberseguridad<br>Universidad Francisco de Vitoria (UFV)</p>
+                        </div>
+
+                    </div>
+                    <div class="centrarfeibu bg-black">
+                        <div class="fb-page" data-href="https://www.facebook.com/NASA/" data-tabs="timeline" data-width="500" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/NASA/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/NASA/">NASA - National Aeronautics and Space Administration</a></blockquote>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-md-12 pb-3">
+                            <div class="border-top">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <ul class="list-unstyled social mb-0 pb-0 nav-left">
+                                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 text-center">
+                            <span class="small">Rodrigo Sáez © All Rights Reserved.</span>
+                        </div>
+
+                        <div class="col-md-4 text-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+    </div>
+    </div>
+
+
+
+
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="./scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/cookies.js"></script>
+    <script src="./scripts/parallax.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.js" integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <!---->
+
+
+</body>
+
+
+</html>
